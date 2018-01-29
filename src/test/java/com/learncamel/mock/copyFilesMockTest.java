@@ -16,6 +16,7 @@ public class copyFilesMockTest extends CamelTestSupport {
     public void testMockFilesCopyRouter() throws InterruptedException{
         //Construct the mock output that is expected in the sink
         String input = "Sample Mock Input Text";
+        //Test Comment
         //get the mock output endpoint
         MockEndpoint mockEndPoint = getMockEndpoint("mock:samplemockoutput");
         // get the received inout value and store it in mock output object
